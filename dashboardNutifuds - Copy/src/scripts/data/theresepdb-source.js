@@ -10,6 +10,7 @@ class TheResepDbSource {
   static async detailresep(id) {
     const response = await fetch(API_ENDPOINT.DETAILRESEP(id));
     return response.json();
+    
   }
 }
  

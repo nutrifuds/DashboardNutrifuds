@@ -7,14 +7,16 @@ const detailResep = {
     return `
       <div id="detailResep" class="detailResep"></div>
     `;
+    
   },
+
  
   async afterRender() {
     const url = UrlParser.parseActiveUrlWithoutCombiner();
     const detail = await TheResepDbSource.detailresep(url.id);
+    console.log(detail.result[0].title);
     const detailContainer = document.querySelector('#detailResep')
     detailContainer.innerHTML = createResepDetailTemplate(detail);
   },
 };
- 
 export default detailResep;
