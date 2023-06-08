@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700,400");
+
+body {
+  margin-top: 0px;
+}
+
+.app-bar {
+position:fixed;
+width: 300px;
+height: 100%;
+left: 0px;
+bottom: 0px;
+
+
+background-color: #668F4D;
+box-shadow: 0px 0px 25px 12px rgba(0, 0, 0, 0.25);
+border-radius: 0px 20px 20px 0px;
+}
+
+.app-bar .app-bar__menu {
+  left: 10px;
+  display: flex;
+  align-items: center;
+}
+ 
+.app-bar .app-bar__menu button {
+  position: relative;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.profil {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  padding-bottom: 50px;
+  left: 16%;
+  top: 80px;
+
+  text-align: center;
+}
+
+.icon-profil {
+  border-radius: 50px;
+  position: relative;
+  left: 50px;
+  width:  50%;
+  height:  50%;
+
+  background: url("../public/user.png");
+  
+  background-color: #FFFFFF;
+  background-size:contain;
+  background-position: center;
+}
+
+.profil-name {
+  width: 176px;
+  height: 200px;
+  display: contents;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration:none;
+    align-items: center;
+
+    color: #000000;
+}
+
+
+.button-search {
+  position: absolute;
+  left: 84.24%;
+  right: 3.47%;
+  top: 5.48%;
+  bottom: 87.63%;
+  border-radius: 15px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+}
+.button-search {
+  background: #F6F7F8;
+  color: #000000;
+  border-color: #F6F7F8;
+}
+
+.button-search:hover {
+  background: #668F4D;
+  color: #F6F7F8;
+}
+
+.input-search{
+  position: absolute;
+  left: 500px;
+  right: 18.61%;
+  top: 5.48%;
+  bottom: 87.63%;
+  padding-left: 40px;
+
+  background: #F6F7F8;
+  border-radius: 15px;
+  border-color: #668F4D;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #787C84;
+}
+
+
+
+.app-bar .app-bar__navigation {
+  position: absolute;
+  top: 300px;
+  width: 150px;
+  transition: all 0.3s;
+  padding: 8px;
+  background-color:#668F4D;
+  overflow: hidden;
+}
+
+.app-bar .app-bar__navigation.open {
+    position: absolute;
+    border-radius: 0px 10px 10px 10px;
+    border-width: 10px;
+    border-color: white;
+    border-style: double;
+    width: 300px;
+    top: 50px;
+}
+
+.app-bar .app-bar__navigation ul li a {
+  display:contents;
+  text-decoration: none;
+  padding: 8px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.menu-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  list-style-type: none;
+}
+
+.menu-item a p {
+  display: contents;
+  width: 180px;
+}
+
+.menu-item:hover {
+  
+  background: #FFFFFF;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: #000000;
+}
+
+.icon1 {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+
+  background-image: url("../public/dashboard.png");
+  background-size: cover;
+}
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+
+  background-image: url("../public/recipe-book.png");
+  background-size: cover;
+}
+
+.icon3 {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+
+  background-image: url("../public/scale.png");
+  background-size: cover;
+}
+
+.icon4 {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+
+  background: url('../public/logout.png');
+  background-size: cover;
+}
+
+.content {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+  left: 330px;
+  height: 100%;
+}
+
+.title {
+  position: absolute;
+  display: grid;
+  width: 95%;
+  height: 60px;
+  top: 0px;
+
+  align-items: center;
+  border-style: double;
+  border-radius: 10px;
+  border-width: 9px;
+	border-color: #FFFFFF;
+
+  background: url('../public/BG_Hero.png');
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.search {
+  position: absolute;
+  margin-right: 50px;
+  width: 90%;
+  height: 50px;
+  top: 100px;
+  
+}
+
+.input-search{
+
+  height: 40px;
+  left: 0px;
+
+  border-style: solid;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.button-search {
+  position: absolute;
+  width: 20%;
+  height: 50px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 27px;
+}
+
+.button-search:hover {
+  background: #668F4D;
+  color: #F6F7F8;
+}
+
+.content-item {
+    width: 100%;
+    height: 100%;
+    top: 160px;
+    position: absolute;
+    display: inline-block;
+}
+
+
+
+.pic-item {
+  float:left;
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  left: 0;
+}
+
+.box-item {
+    display: inline-block;
+    width: 350px;
+    height: 100px;
+    margin: 10px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: #668F4D;
+}
+
+
+.name-item {
+    position: absolute;
+    width: 200px;
+    text-align: left;
+    MARGIN-LEFT: 160px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.name-item:hover {
+  color: #000000;
+}

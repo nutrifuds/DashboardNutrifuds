@@ -1,0 +1,44 @@
+/* Variables */
+
+:root {
+  --black: 
+rgba(0, 0, 0, 1);
+  --highland: 
+rgba(102, 143, 77, 1);
+  --rolling-stone: 
+rgba(120, 124, 132, 1);
+  --black-haze: 
+rgba(246, 247, 248, 1);
+  --white: 
+rgba(255, 255, 255, 1);
+
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 24px;
+
+  --font-family-poppins: "Poppins";
+}
+
+/* Classes */
+
+.poppins-medium-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-normal-rolling-stone-18px {
+  color: var(--rolling-stone);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold-highland-16px {
+  color: var(--highland);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+}
