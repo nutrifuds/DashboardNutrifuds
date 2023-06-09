@@ -346,3 +346,157 @@ a:-webkit-any-link {
 .name-item:hover {
   color: #000000;
 }
+
+/*HALAMAN DETAIL*/
+
+.detailResep {
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+}
+
+.back-button {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 0px;
+    top: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #668F4D;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 20px 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 36px;
+
+}
+
+.back-button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.arrow {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 40px;
+}
+
+.detail-item {
+    position: absolute;
+    display: flex;
+    top: 60px;
+    width: 100%;
+    height: 650px;
+    background-color: #FFFFFF;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 20px;
+}
+
+.img-detail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 51%;
+  height: 40%;
+  border-radius: 0px 20px;
+  background-color: #668F4D;
+}
+
+.img-detail img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 20px;
+}
+
+.title-detail {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 48%;
+  height: 30%;
+  border-radius: 20px 0px;
+  background-color: #FFFFFF;
+
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: #668F4D;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.title-detail h1 {
+  width: 100%;
+}
+
+.title-detail:hover {
+  background-color: #668F4D;
+  color: #FFFFFF;
+}
+
+.list-recipe{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 48%;
+  height: 68%;
+  border-radius: 0px 20px;
+  background-color: #668F4D;
+}
+
+.list-recipe h3, .step-cook h3{
+  text-align: center;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.recipe {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: #FFFFFF;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.step-cook {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 51%;
+  height: 58%;
+  border-radius: 20px 0px;
+  background-color: #668F4D;
+}
+
+.list-cook {
+  margin-left: 10px;
+  margin-right: 20px;
+  color: #FFFFFF;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+}
