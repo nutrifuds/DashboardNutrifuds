@@ -12,7 +12,8 @@ const createResepDetailTemplate = (resep) => `
                     <div class="recipe">${resep.result[0].bahan_bahan}</div>
                 </div>
                 <div class="step-cook">
-                    <h3>${resep.result[0].cara_memasak}</h3>
+                    <h3>Cara Memasak</h3>
+                    <div class="list-cook">${resep.result[0].cara_memasak}</div>
                 </div>
             </div>
 `
