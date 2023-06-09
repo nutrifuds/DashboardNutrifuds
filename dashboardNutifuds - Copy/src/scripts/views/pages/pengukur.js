@@ -1,19 +1,20 @@
+import "../../../styles/pengukur.css"
 const pengukur = {
   async render() {
     
     return `
-    <h1>BMI Calculator</h1>
+    <h1 class="h1_pengukur">BMI Calculator</h1>
     <div class="wrapper">
-    <p>Height in CM:
-        <input type="text" id="height"><br><span id="height_error"></span>
+    <p class="p_pengukur">Tinggi Dalam CM:
+        <input type="text" id="height" placeholder="masukkan tinggi" class="input_pengukur"><br><span id="height_error"></span>
     </p>
 
-    <p>Weight in KG:
-        <input type="text" id="weight"><br><span id="weight_error"></span>
+    <p class="p_pengukur">Berat Dalam KG:
+        <input type="text" id="weight" placeholder="masukkan berat badan" class="input_pengukur"><br><span id="weight_error"></span>
     </p>
 
-    <button id="btn">Calculate</button>
-    <p id="output"></p>
+    <button id="btn" class="button_pengukur">Hitung</button>
+    <p id="output" class="p_pengukur"></p>
 </div>
     `;
   },
@@ -28,14 +29,14 @@ button.addEventListener('click', () => {
     let height_status=false, weight_status=false;
 
     if(height === '' || isNaN(height) || (height <= 0)){
-        document.getElementById('height_error').innerHTML = 'Please provide a valid height';
+        document.getElementById('height_error').innerHTML = 'mohon masukkan tinggi yang benar';
     }else{
         document.getElementById('height_error').innerHTML = '';
         height_status=true;
     }
 
     if(weight === '' || isNaN(weight) || (weight <= 0)){
-        document.getElementById('weight_error').innerHTML = 'Please provide a valid weight';
+        document.getElementById('weight_error').innerHTML = 'mohon masukkan nilai berat yang benar';
     }else{
         document.getElementById('weight_error').innerHTML = '';
         weight_status=true;
