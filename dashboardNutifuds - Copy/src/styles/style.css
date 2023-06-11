@@ -85,56 +85,6 @@ a:-webkit-any-link {
     color: #000000;
 }
 
-
-.button-search {
-  position: absolute;
-  left: 84.24%;
-  right: 3.47%;
-  top: 5.48%;
-  bottom: 87.63%;
-  border-radius: 15px;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-
-}
-.button-search {
-  background: #F6F7F8;
-  color: #000000;
-  border-color: #F6F7F8;
-}
-
-.button-search:hover {
-  background: #668F4D;
-  color: #F6F7F8;
-}
-
-.input-search{
-  position: absolute;
-  left: 500px;
-  right: 18.61%;
-  top: 5.48%;
-  bottom: 87.63%;
-  padding-left: 40px;
-
-  background: #F6F7F8;
-  border-radius: 15px;
-  border-color: #668F4D;
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
-
-  color: #787C84;
-}
-
-
-
 .app-bar .app-bar__navigation {
   position: absolute;
   top: 300px;
@@ -499,4 +449,137 @@ a:-webkit-any-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 36px;
+}
+
+/*Dashboard*/
+
+.dashboard-container{
+  position: absolute;
+    height: 96%;
+    width: 100%;
+    top: 10px;
+}
+
+.dash-title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+
+  color: #668F4D;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.container-item {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    height: -webkit-fill-available;
+}
+
+.container-resep {
+    float: left;
+
+}
+
+.container-pengukur {
+  float: right;
+
+}
+
+.container-pengukur, .container-resep{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-boxitem {
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #668F4D;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.dash-boxitem .dash-img-1 {
+    position: absolute;
+    top: -150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: url("../public/3D_Salad-removebg-preview.png");
+    background-size: cover;
+
+}
+
+.dash-boxitem .dash-img-2 {
+    position: absolute;
+    top: -150px;
+    width: 400px;
+    height: 300px;
+    border-radius: 100%;
+    background: url("../public/3D_Sport-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dash-boxitem h3 {
+  position: absolute;
+  top: 120px;
+
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.dash-boxitem p {
+  position: absolute;
+  top: 160px;
+  padding: 30px;
+
+  color: #FFFFFF;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.dash-boxitem a button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 200px;
+  height: 50px;
+
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  color: #668F4D;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.dash-boxitem a button:hover {
+   background-color: #668F4D;
+   color: #FFFFFF;
 }
