@@ -8,7 +8,7 @@ const dashboard = {
             <div class="dash-boxitem">
               <img class="dash-img-1" >
               <h3>Resep</h3>
-              <p>Semua daftar resep makanan yang enak dan sehat untuk anda ada disini</p>
+              <p>Semua daftar resep makanan dan minuman yang enak dan sehat untuk anda ada disini</p>
               <a href="#/resep"><button>Pergi Sekarang</button></a>
             </div>
           </div>
