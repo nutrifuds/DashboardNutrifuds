@@ -20,12 +20,12 @@ const createResepDetailTemplate = (resep) => `
 ;
  
 const createResepItemTemplate = (resep) => `
-<div class="box-item">
-  <a href="#/detail/${resep._id}" class="click-item">
+<a href="#/detail/${resep._id}" class="click-item">
+  <button class="box-item">
     <img src="${resep.imgurl}" class="pic-item" alt="${resep.title}">
     <p class="name-item">${resep.title}</p>
-  </a>
-</div>
+  </button>
+</a> 
 `;
  
 export {createResepItemTemplate, createResepDetailTemplate};
