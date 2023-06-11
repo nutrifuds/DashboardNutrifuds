@@ -6,11 +6,6 @@ const resep = {
     return `
       <h2 class="title">Cari Resep Sehat yang Anda, Disini</h2>
 
-      <div class="search">
-            <input type="text" class="input-search" placeholder="Cari Resep">
-            <button class="button-search">Cari</button>
-      </div>
-
       <div class="content-item"></div>
     `;
   },
